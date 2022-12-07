@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prak15_wangsa.FormInputController">
+   <children>
+      <Label layoutX="246.0" layoutY="14.0" text="Tambahan Data Mahasiswa" />
+      <Label layoutX="72.0" layoutY="100.0" text="NPM" />
+      <Label layoutX="72.0" layoutY="160.0" text="Nama Lengkap" />
+      <Label layoutX="72.0" layoutY="212.0" text="Alamat" />
+      <Label layoutX="200.0" layoutY="100.0" text=":" />
+      <Label layoutX="200.0" layoutY="160.0" prefHeight="21.0" prefWidth="4.0" text=":" />
+      <Label layoutX="200.0" layoutY="212.0" text=":" />
+      <Button fx:id="btnTambah" layoutX="268.0" layoutY="291.0" mnemonicParsing="false" onAction="#sendData" text="Tambah" />
+      <TextField fx:id="fieldNPM" layoutX="217.0" layoutY="95.0" />
+      <TextField fx:id="fieldNama" layoutX="217.0" layoutY="155.0" />
+      <TextField fx:id="fieldAlamat" layoutX="217.0" layoutY="207.0" />
+   </children>
+</AnchorPane>
